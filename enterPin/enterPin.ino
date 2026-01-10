@@ -1,7 +1,11 @@
 #include <KeypadLib.h>
 
 
-/*basic script to simulate password entering with the keypad library*/
+/*
+* Basic script to simulate password entering with the keypad library
+* Library available at <https://github.com/Alpinine99/Arduino-keypad-library>
+* For better simulation use 'microsoft serial monitor' vscode extension <https://github.com/microsoft/vscode-serial-monitor>
+*/
 
 const int rows[4] = { 5, 4, 3, 2 };
 const int columns[4] = { 6, 7, 8, 9 };
